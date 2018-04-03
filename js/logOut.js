@@ -6,10 +6,10 @@ $(document).ready(() => {
 	// Wait for elements rendered correctly
 	setTimeout(() => {
 		// Define sign out url
-		const urlSignOut = 'http://form.mmsustainability.ac.id/auth/signOut'
+		const urlSignOut = 'http://server.mmsustainability.ac.id/auth/signOut'
 
 		// Define update login state url
-		const urlUpdateLoginState = `http://form.mmsustainability.ac.id/loginState/5ac27641eb4fab1b5c9eab87`
+		const urlUpdateLoginState = `http://server.mmsustainability.ac.id/loginState/5ac27641eb4fab1b5c9eab87`
 
 		// When button log out pressed
 		$('#btnLogOut').click( async (e) => {
