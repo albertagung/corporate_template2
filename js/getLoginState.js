@@ -19,7 +19,7 @@ $(document).ready(() => {
 				</span>
 			`)
 			// Change the apply link to be form-index.html
-			$('#linkApply').attr('href', 'https://server.mmsustainability.ac.id/form_index.html')
+			$('#linkApply').attr('href', 'https://form.mmsustainability.ac.id/form_index.html')
 		}
 	})
 	.catch((err) => {
