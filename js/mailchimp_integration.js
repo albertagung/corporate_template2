@@ -20,7 +20,7 @@ $(document).ready(() => {
 			swal("Alert!", "Please fill your name and email address", "warning")
 		} else {
 			// Define url for posting data to server mailchimp
-			const urlPostSubscriber = 'http://localhost:3000/mailchimp'
+			const urlPostSubscriber = 'https://server.mmsustainability.ac.id/mailchimp'
 
 			// Post data using axios
 			axios.post(urlPostSubscriber, objSubscriber).then((response) => {
