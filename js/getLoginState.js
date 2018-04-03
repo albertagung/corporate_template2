@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
 	// Define get login state url
-	const urlGetLoginState = 'http://server.mmsustainability.ac.id/loginState'
+	const urlGetLoginState = 'https://server.mmsustainability.ac.id/loginState'
 
 	// Get the login state
 	axios.get(urlGetLoginState).then((response) => {
@@ -19,7 +19,7 @@ $(document).ready(() => {
 				</span>
 			`)
 			// Change the apply link to be form-index.html
-			$('#linkApply').attr('href', 'http://server.mmsustainability.ac.id/form_index.html')
+			$('#linkApply').attr('href', 'https://server.mmsustainability.ac.id/form_index.html')
 		}
 	})
 	.catch((err) => {
