@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
 	// Define get login state url
-	const urlGetLoginState = 'http://localhost:3000/loginState'
+	const urlGetLoginState = 'http://form.mmsustainability.ac.id/loginState'
 
 	// Get the login state
 	axios.get(urlGetLoginState).then((response) => {
